@@ -1,4 +1,4 @@
-# SelfDrivingCarND_UnscetedKalmanFilter
+# SelfDrivingCarND_PIDController
 
 Implementation of a PID controller with the aim to control trajectory and speed of a car in the Simulation environent provided by Udacity in the scope of the Self driving car NanoDegree. Using the car information about speed, trajectory and The simulator provide for each timestamp the information about the car distance from the target trajectory, the current speed and the current steering angle, the PID controlloer adjust the speed and the trajectory, providing to the simulator a throttle value and a steering aangle.
 
@@ -9,7 +9,7 @@ The repository is made of two folders and some files:
 
 1.  /src folder: includes all the src files required for executable build and to execute the PID controller;
 2.	/executables folder: contains the compiled files
-2.  CMakeLists.txt, CMakeSettings.json and cmakepatch.txt are the configuration files used to make the system executable on windows. 
+3.  CMakeLists.txt, CMakeSettings.json and cmakepatch.txt are the configuration files used to make the system executable on windows. 
 4.  install-mac.sh and install-ubuntu.sh: scripts for mac and ubuntu provided by udacity in order to make the configuration of the OS faster (e.g. uWebSockets installation) 
 
 ---
